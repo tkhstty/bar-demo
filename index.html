@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Demo - あなたの日常にちょっとした特別を</title>
+    <meta name="description" content="落ち着いた空間で楽しむ、大人のための隠れ家バー。Bar Demoへようこそ。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="logo">
+            <a href="#">Bar Demo</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#system">System</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-toggle" aria-label="メニューを開く">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#system">System</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#access">Access</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="top" class="hero">
+        <div class="hero-bg">
+            <!-- Background image will be set via CSS or img tag -->
+            <img src="assets/hero_bar.png" alt="Bar Counter Atmosphere" class="hero-image">
+        </div>
+        <div class="hero-content">
+            <h1>Your Daily Special Moment</h1>
+            <p>あなたの日常にちょっとした特別を</p>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span>Scroll</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>心地よい時間を、あなたに。</h3>
+                    <p>
+                        当店は、誰かと一緒に過ごすだけでなく、<br>
+                        一人で訪れても心地よく、落ち着いた空間で楽しんでいただける場所を目指しています。
+                    </p>
+                    <p>
+                        忙しい日常を忘れ、あなただけの特別な時間を過ごせるよう、<br>
+                        心を込めたサービスを提供いたします。
+                    </p>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="assets/cocktail_signature.png" alt="Signature Cocktail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Section -->
+    <section id="system" class="section system-section">
+        <div class="container">
+            <h2 class="section-title">System</h2>
+            <div class="system-grid">
+                <div class="system-item fade-in">
+                    <i class="fa-solid fa-chair"></i>
+                    <h3>Charge</h3>
+                    <p class="price">¥1,000</p>
+                    <p class="desc">テーブルチャージ</p>
+                </div>
+                <div class="system-item fade-in">
+                    <i class="fa-solid fa-percent"></i>
+                    <h3>Tax / Service</h3>
+                    <p class="price">Tax 10%</p>
+                    <p class="desc">サービス料 なし</p>
+                </div>
+            </div>
+            <div class="system-note fade-in">
+                <p>※お得な飲み放題プランもご用意しております。スタッフまでお尋ねください。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu-section">
+        <div class="container">
+            <h2 class="section-title">Menu Highlights</h2>
+            <div class="menu-list">
+                <div class="menu-category fade-in">
+                    <h3>Whisky</h3>
+                    <ul>
+                        <li>
+                            <span class="name">Glenfiddich 12y</span>
+                            <span class="price">¥900</span>
+                        </li>
+                        <li>
+                            <span class="name">Macallan 12y</span>
+                            <span class="price">¥1,200</span>
+                        </li>
+                        <li>
+                            <span class="name">Yamazaki</span>
+                            <span class="price">¥1,500</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-category fade-in">
+                    <h3>Cocktail</h3>
+                    <ul>
+                        <li>
+                            <span class="name">Gin Tonic</span>
+                            <span class="price">¥800</span>
+                        </li>
+                        <li>
+                            <span class="name">Martini</span>
+                            <span class="price">¥1,000</span>
+                        </li>
+                        <li>
+                            <span class="name">Seasonal Fruit Cocktail</span>
+                            <span class="price">¥1,200~</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn">View All Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Section -->
+    <section id="access" class="section access-section">
+        <div class="container">
+            <h2 class="section-title">Access</h2>
+            <div class="access-content">
+                <div class="access-info fade-in">
+                    <h3>Bar Demo</h3>
+                    <p>
+                        〒160-0021<br>
+                        東京都新宿区歌舞伎町2丁目28-15<br>
+                        第17金嶋ビル 5階C号室
+                    </p>
+                    <p class="contact">
+                        TEL: 03-XXXX-XXXX<br>
+                        OPEN: 20:00 - 05:00
+                    </p>
+                </div>
+                <div class="access-map fade-in">
+                    <!-- Placeholder for map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.485642220678!2d139.7005856767699!3d35.69714852951167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2f5a600001%3A0x6c6e756181775799!2z44CSMTYwLTAwMjEg5p2x5Lqs6YO95paw5a6_5Yy65qKM6oie5伎55S677yS5LiB55uu77yS77yY4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1704706500000!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a> <!-- X icon might need update or custom SVG -->
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Bar Demo. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
